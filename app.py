@@ -12,8 +12,8 @@ import pickle
 # app
 app = flask.Flask(__name__)
 
-# load model
-heart = pickle.load(open("logregheart.pkl","rb"))
+# load modelz
+heart = pickle.load(open("logregheart.pkl","rb+"))
 
 # routes
 @app.route("/")
